@@ -8,6 +8,7 @@ import Home from './pages/Home';
 import Game from './pages/Game';
 import Account from './pages/Account';
 import Settings from './pages/Settings';
+// import SoundToggle from './components/buttons/sound';
 
 // const NavBar = () => (
 //   <nav>
@@ -25,6 +26,8 @@ const App = () => {
         <Route path="/account" element={<Account />} /> {/* Account page */}
         <Route path="/settings" element={<Settings />} /> {/* Settings page */}
       </Routes>
+
+      {/* <SoundToggle /> */}
     </Router>
   );
 };

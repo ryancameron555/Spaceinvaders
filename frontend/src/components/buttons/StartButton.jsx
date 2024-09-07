@@ -19,7 +19,7 @@ const StartB = () => {
   return (
     <div style={titleStyle}>
       {/* Link to the new page */}
-      <Link to="/newpage">
+      <Link to="/Game">
         <img src={StartImage} alt="Start" style={imgStyle} />
       </Link>
       <style jsx>{`
