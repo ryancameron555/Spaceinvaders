@@ -11,8 +11,8 @@ const planetB = () => {
     backgroundRepeat: 'no-repeat',
     width: '5%',
     height: '5%',
-    left: '50%', // Example position
-    top: '80%', // Example position,
+    left: '75%', // Example position
+    top: '75%', // Example position,
     transformOrigin: 'center', // Center the rotation
     animation: 'circularMotion 20s linear infinite',
   };
