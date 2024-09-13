@@ -7,12 +7,12 @@ const StartB = () => {
     display: 'flex',
     justifyContent: 'center',
     alignItems: 'center',
-    height: '50%',
+    height: '25%',
     animation: 'zoomTitle 2s infinite alternate',
   };
 
   const imgStyle = {
-    width: '50%',
+    width: '25%',
     maxWidth: '600px',
   };
 
@@ -25,7 +25,7 @@ const StartB = () => {
       <style jsx>{`
         @keyframes zoomTitle {
           0% {
-            transform: scale(1);
+            transform: scale(0.75);
           }
           100% {
             transform: scale(1.2);

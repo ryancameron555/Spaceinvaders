@@ -6,13 +6,13 @@ const SpaceInvadersTitle = () => {
     display: 'flex',
     justifyContent: 'center',
     alignItems: 'center',
-    height: '100%',
+    height: '50%',
     animation: 'moveTitle 5s infinite alternate',
     margin: '10vh',
   };
 
   const imgStyle = {
-    width: '100%',
+    width: '50%',
     maxWidth: '600px',
   };
 
