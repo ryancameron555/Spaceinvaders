@@ -14,7 +14,7 @@ const planetA = () => {
     left: '10%', // Example position
     top: '20%', // Example position
     transformOrigin: 'center', // Center the rotation
-    animation: 'circularMotion 20s linear infinite',
+    animation: 'circularMotion 25s linear infinite',
   };
 
   return <div style={planetStyle}></div>;

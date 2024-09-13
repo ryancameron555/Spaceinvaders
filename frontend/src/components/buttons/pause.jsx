@@ -11,8 +11,8 @@ const PauseButton = ({ onPause }) => {
     borderRadius: '50%',
     cursor: 'pointer',
     position: 'fixed',
-    top: '2vh',
-    right: '4vw',
+    top: '2%',
+    right: '6%',
     fontSize: '2vh', // Make the icon bigger
     display: 'flex',
     justifyContent: 'center',
