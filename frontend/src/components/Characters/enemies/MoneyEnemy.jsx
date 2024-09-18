@@ -1,22 +1,10 @@
 /** @format */
 
-import React from 'react';
-import moneyEnemyImage from '../assets/enemy/money.png';
+import BaseEnemy from './BaseEnemy';
+import moneyEnemyImage from '../../../assets/enemy/money.png';
 
 const MoneyEnemy = ({ x, y }) => {
-  return (
-    <img
-      src={moneyEnemyImage}
-      alt="MoneyEnemy"
-      style={{
-        position: 'absolute',
-        left: `${x}px`,
-        top: `${y}px`,
-        width: '50px',
-        height: '50px',
-      }}
-    />
-  );
+  return <BaseEnemy image={moneyEnemyImage} x={x} y={y} />;
 };
 
 export default MoneyEnemy;

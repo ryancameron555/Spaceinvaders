@@ -34,7 +34,7 @@ const Sidebar = () => {
     position: 'absolute',
     bottom: '5vh',
     right: isOpen ? '12vw' : 'auto',
-    left: !isOpen ? '-10%' : 'auto',
+    left: !isOpen ? '-1vw' : 'auto',
     backgroundColor: 'transparent',
     border: 'none',
     color: 'white',

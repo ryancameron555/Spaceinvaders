@@ -4,7 +4,7 @@ import React, { useState, useEffect } from 'react';
 import Enemy1 from '../components/Characters/enemies/Enemy1';
 import Enemy2 from '../components/Characters/enemies/Enemy2';
 import Enemy3 from '../components/Characters/enemies/Enemy3';
-import MoneyEnemy from './MoneyEnemy';
+import MoneyEnemy from '../components/Characters/enemies/MoneyEnemy';
 
 const Enemies = () => {
   const [enemies, setEnemies] = useState([
@@ -16,11 +16,10 @@ const Enemies = () => {
   ]);
 
   const moveEnemies = () => {
-    // Example movement logic: move enemies down
     setEnemies((prevEnemies) =>
       prevEnemies.map((enemy) => ({
         ...enemy,
-        y: enemy.y + 1, // Move each enemy down by 1 pixel
+        y: enemy.y + 1, // Example movement: move enemies down by 1 pixel
       }))
     );
   };

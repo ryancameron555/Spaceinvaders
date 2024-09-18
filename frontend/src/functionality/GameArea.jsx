@@ -2,7 +2,7 @@
 
 import React from 'react';
 import Player from './Player';
-// import Enemies from './Enemies';
+import Enemies from './Enemies';
 
 const GameArea = () => {
   const gameContainerStyle = {
@@ -21,7 +21,7 @@ const GameArea = () => {
   return (
     <div style={gameContainerStyle}>
       <Player />
-      {/* <Enemies /> */}
+      <Enemies />
     </div>
   );
 };
